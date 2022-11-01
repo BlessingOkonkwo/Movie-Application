@@ -12,12 +12,12 @@
 </head>
 <body>
     <header id="header">
-        <h1 >yts<em><small style="font-size: 12px;">.mx</small></em> Movies</h1>
+        <h2 >yts<em><small style="font-size: 12px;">.mx</small></em> Movies</h2>
 
         <div class="search-bar">
-            <form action="" target="_blank" autocomplete="on">
+            <form action="" target="_blank" autocomplete="on" id="searchForm">
                 <i class="fa fa-search" style="color: black; opacity: .5;"></i>
-                <input type="text" id="search" placeholder="search movies" onkeyup="searchMovies()">
+                <input type="text" id="search" placeholder="search movies">
             </form>
         </div>
 
@@ -25,97 +25,22 @@
             <li><a href="">Home</a></li>
             <li><a href="">Genres</a></li>
             <li><a href="">Trending</a></li>
-            <!-- <li><a href=""></a></li> -->
         </ul>
     </header>
 
-    <main class="container">
-        <div class="col-sm-6 col-md-4 col-lg-3 p-1">
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <a href=""><img src="images/Blade Runner-ma.png" alt="Blade Runner"></a>
-
-                <div class="name">
-                    <p class="title"><b>Blade Runner 2040</b></p>
-                    <p class="year">2020</p>
-                </div>
-            </div>
-        </div>
+    <main id="container">
+        
     </main>
+
+    <div class="overlay">
+        <div class="close" id="closeOverlay">&times;</div>
+        <div class="info"></div>
+    </div>
 
     <footer>
 
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
